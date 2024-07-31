@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/gitclone-url/Boot-image-Extractor/assets/98699436/8fc2fc00-4dcd-4506-a161-7fec49a6ee34" loading="lazy" alt="Boot Image Extractor"/>
+  <img src="https://github.com/Vankimfc0/Boot-image-Extractor/assets/98699436/8fc2fc00-4dcd-4506-a161-7fec49a6ee34" loading="lazy" alt="Boot Image Extractor"/>
 <h2></h2>   
 </div>
 
@@ -7,7 +7,7 @@
 <div style="display: flex; justify-content: center;">
   <div style="max-width: 800px;">
     <p>
-      Boot Image Extractor is a standalone Python script designed to extract the boot image from Android devices with root access. It supports both <a href="https://source.android.com/devices/tech/ota/ab">A/B</a> and <a href="https://source.android.com/devices/bootloader/partitions">legacy partition</a> styles. This script was developed as part of an automated method for extracting boot images described in the <a href="https://gist.github.com/gitclone-url/a1f693b64d8f8701ec24477a2ccaab87#file-boot-image-extraction-guide-md">Boot Image Extraction Guide</a>.
+      Boot Image Extractor is a standalone Python script designed to extract the boot image from Android devices with root access. It supports both <a href="https://source.android.com/devices/tech/ota/ab">A/B</a> and <a href="https://source.android.com/devices/bootloader/partitions">legacy partition</a> styles. This script was developed as part of an automated method for extracting boot images described in the <a href="https://gist.github.com/Vankimfc0/a1f693b64d8f8701ec24477a2ccaab87#file-boot-image-extraction-guide-md">Boot Image Extraction Guide</a>.
     </p>
   </div>
 </div>
@@ -49,7 +49,7 @@
 1. **Run with One-Liner Commands:**
    Copy and paste the following command in termux and hit enter to start running the script:
    ```bash
-   apt update && apt upgrade -y; { command -v tsu && command -v curl && command -v python && command -v pip && python -c 'import pyfiglet' &>/dev/null; } || apt install -y tsu curl python; pip install pyfiglet; curl -o boot_image_extractor.py https://raw.githubusercontent.com/gitclone-url/Boot-image-Extractor/main/scripts/boot_image_extractor.py; clear; sudo python boot_image_extractor.py
+   apt update && apt upgrade -y; { command -v tsu && command -v curl && command -v python && command -v pip && python -c 'import pyfiglet' &>/dev/null; } || apt install -y tsu curl python; pip install pyfiglet; curl -o boot_image_extractor.py https://raw.githubusercontent.com/Vankimfc0/Boot-image-Extractor/main/scripts/boot_image_extractor.py; clear; sudo python boot_image_extractor.py
    ```
    > **Note:** It may take some time to run for the first time because the script will be downloaded along with the required tools. Please be patient.
 
@@ -58,10 +58,10 @@
 1. **Clone or Download Source:**
    Clone the repository and navigate to the project directory:
    ```bash
-   git clone https://github.com/gitclone-url/Boot-image-Extractor.git
+   git clone https://github.com/Vankimfc0/Boot-image-Extractor.git
    cd Boot-image-Extractor
    ```
-   or download the source zip file from [GitHub](https://github.com/gitclone-url/Boot-image-Extractor/archive/refs/heads/master.zip), extract it, and navigate to the extracted directory.
+   or download the source zip file from [GitHub](https://github.com/Vankimfc0/Boot-image-Extractor/archive/refs/heads/master.zip), extract it, and navigate to the extracted directory.
 
 2. **Install Dependencies:**
    Ensure Python and required packages are installed:
@@ -96,4 +96,4 @@ This script is distributed under the terms of the [MIT License](LICENSE).
 
 ## Support
 
-For any issues or inquiries, please open an issue on the repository's [issue tracker](https://github.com/gitclone-url/Boot-image-Extractor/issues) or contact the developer via [Telegram](https://t.me/PhantomXPain).
+For any issues or inquiries, please open an issue on the repository's [issue tracker](https://github.com/Vankimfc0/Boot-image-Extractor/issues) or contact the developer via [Telegram](https://t.me/PhantomXPain).
